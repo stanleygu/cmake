@@ -1,6 +1,6 @@
 {
   "name": "cmake",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Stanley Gu",
   "repository" : {
     "type": "git",
@@ -8,12 +8,5 @@
   },
   "scripts": {
     "install": "make" 
-  },
-  "bin": {
-    "cmake": "./bin/cmake",
-    "ccmake": "./bin/ccmake",
-    "cmake-gui": "./bin/cmake-gui",
-    "cpack": "./bin/cpack",
-    "ctest": "./bin/ctest"
   }
 }
